@@ -1,7 +1,5 @@
 body {
     height: 100vh;
-    width: 100vw;
-    overflow: hidden;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -30,4 +28,37 @@ a {
 
 h2 {
     color: aqua;
+}
+
+.top-container {
+    background-color: #1F2937;
+    height: 500px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.awesome-container {
+    width: 420px;
+    
+}
+
+.random-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image-text {
+    width: 100px;
 }
