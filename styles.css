@@ -8,7 +8,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #1F2937;
     align-items: center;
     margin: 0;
@@ -148,5 +148,11 @@ button {
 .container2 {
     display: flex;
     justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #ffffff;
+    padding: 10px;
 }
 
